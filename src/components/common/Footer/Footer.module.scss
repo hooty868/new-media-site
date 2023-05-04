@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 40px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #252b37;
+  margin-top: 100px;
+
+  .linkContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 10px;
+
+    a {
+      display: block;
+      font-size: 13px;
+      color: #f2f2f2;
+      text-decoration: none;
+    }
+  }
+
+  p {
+    font-size: 13px;
+    color: #f2f2f2;
+  }
+}
